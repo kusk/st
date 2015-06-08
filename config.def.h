@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Liberation Mono for Powerline:pixelsize=11:antialias=false:autohint=false";
+static char font[] = "Liberation Mono for Powerline:pixelsize=12:antialias=false:autohint=false";
 static int borderpx = 0;
 static char shell[] = "/usr/bin/zsh";
 static char *utmp = NULL;
@@ -75,7 +75,7 @@ static const char *colorname[] = {
 	"#586e75",  /* 10: brgreen  */
 	"#657b83",  /* 11: bryellow */
 /*	"#839496", */ /* 12: brblue   */
-	"#bbbbbb",
+	"#aaaaaa",
 	"#6c71c4",  /* 13: brmagenta*/
 	"#93a1a1",  /* 14: brcyan   */
 	"#ffffff",  /* 15: brwhite  */
