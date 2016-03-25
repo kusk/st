@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Liberation Mono for Powerline:pixelsize=12:antialias=false:autohint=false";
-static int borderpx = 0;
+static char font[] = "Liberation Mono for Powerline:pixelsize=12:antialias=true:autohint=false";
+static int borderpx = 1;
 static char shell[] = "/usr/bin/zsh";
 static char *utmp = NULL;
 static char stty_args[] = "stty raw -echo -iexten echonl";
